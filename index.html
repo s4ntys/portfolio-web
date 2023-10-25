@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="uikit.css">
+    <script src="uikit.js"></script>
+    <script src="uikit-icons.js"></script>
+
+
+    <title>Your NAME</title>
+
+
+</head>
+<body>
+<!-- Navigation bar-->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky"></nav>
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">SanTy</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="mailto" uk-scroll>Contact</a></li>
+        </ul>
+
+    </div>
+
+    <!--End bar-->
+
+    <!--Navigation bar mobile -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky"></nav>
+
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo uk-light">SanTy</a>
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav uk-light">
+                <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+            </ul>
+
+        </div>
+        
+        <!-- Change This -->
+        <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                    <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+                    <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+                    <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+                    <li class="uk-active"><a href="mailto:">Contact</a></li> <!-- Change to ur email bro -->
+
+                </ul>
+
+            </div> 
+        </div>
+
+        <!-- End navigatoin bar mobile-->
+
+        <!-- Home -->
+        <section class="uk-margin-small-left uk-margin-small-right uk-magin-top uk-margin-xlarge-bottom">
+            <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-small-right">Im SanTy a front-end web fufu developer, <br> The best graphic designer, and an UI designer.</h1>
+            <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+
+
+
+        </section>
+
+        <!-- Home END -->
+        <br>
+
+
+        <hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+        <!-- ABOUT ME -->
+        <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+        <!-- Change here to ur paragraph -->
+        <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Write here yours about you !</p>
+        <a href="" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+
+        <!-- About me Ends -->
+
+
+
+
+
+        </section>
+
+        <!-- Projects Section -->
+        <hr class="uk-margin-xlarge-left uk-margin-small-right">
+        <section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+        <p class="uk-margin-xlarge-left">Projects that i ve been working on</p>
+
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <!-- change all of this to ur project -->
+            <div class="uk-margin uk-card uk-card-secondary uk-card body">
+                <h4>Project Name</h4>
+                <p>Here you tips yours projects !!!</p>
+                <a class="uk-button-text uk-text-decoration-none" href="">
+                    <span uk-icon="icon: link">Website Link </span>
+                </a>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body">
+                <h4>Project Name</h4>
+                <p>Here you tips yours projects !!!</p>
+                <a href="uk-bottom-text uk-text-decoradion-none" href="">
+                    <span uk-icon="icon: link">Website Link</span>
+                </a>
+            </div>
+
+
+            <br>
+
+        </div>
+        </section>
+        <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        </div>
+
+        <!-- Projects section ends -->
+</body>
+</html>
